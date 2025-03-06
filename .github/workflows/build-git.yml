@@ -33,6 +33,7 @@ jobs:
           - images/bluefin/41/bluefin--41-git.yml
           - images/plasma/41/plasma--41-git.yml
           - images/gnome/41/gnome--41-git.yml
+          - images/xfce/41/xfce--41-git.yml
 
     steps:
       - name: Build Custom Image
