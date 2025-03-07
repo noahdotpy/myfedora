@@ -3,3 +3,5 @@ modules:
     install:
       - kde-connect
       - redshift
+    remove:
+      - openssh-askpass
