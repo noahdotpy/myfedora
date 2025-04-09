@@ -7,7 +7,7 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/eclipseo/espanso/repo/fedora-%OS_VERSION%/eclipseo-espanso-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/johanh/timekpr-next/repo/fedora-%OS_VERSION%/johanh-timekpr-next-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
-  - https://copr.fedorainfracloud.org/coprs/wojnilowicz/activitywatch/repo/fedora-%OS_VERSION%/wojnilowicz-activitywatch-fedora-%OS_VERSION%.repo
+  # - https://copr.fedorainfracloud.org/coprs/wojnilowicz/activitywatch/repo/fedora-%OS_VERSION%/wojnilowicz-activitywatch-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/sneexy/zen-browser/repo/fedora-%OS_VERSION%/sneexy-zen-browser-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/varlad/yazi/repo/fedora-%OS_VERSION%/varlad-yazi-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/varlad/zellij/repo/fedora-%OS_VERSION%/varlad-zellij-fedora-%OS_VERSION%.repo
@@ -18,9 +18,9 @@ install:
   - ImageMagick
   - adobe-source-code-pro-fonts
   - adw-gtk3-theme
-  - aw-awatcher
-  - aw-server-rust
-  - aw-sync
+  # - aw-awatcher
+  # - aw-server-rust
+  # - aw-sync
   - bat
   - btop
   - calc
