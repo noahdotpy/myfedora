@@ -1,3 +1,3 @@
 modules:
-  - from-file: profiles/hyprland/modules/packages.yml
-  - from-file: profiles/hyprland/modules/hyprland-modules.yml
+  - from-file: profiles/41/hyprland/modules/packages.yml
+  - from-file: profiles/41/hyprland/modules/hyprland-modules.yml

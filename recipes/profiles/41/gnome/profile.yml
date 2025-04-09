@@ -3,6 +3,6 @@ modules:
   # - type: script
   #   scripts: [gnome/remove-gnome-classic.sh]
 
-  - from-file: profiles/gnome/modules/packages.yml
-  - from-file: profiles/gnome/modules/files.yml
-  - from-file: profiles/gnome/modules/gnome-extensions.yml
+  - from-file: profiles/41/gnome/modules/packages.yml
+  - from-file: profiles/41/gnome/modules/files.yml
+  - from-file: profiles/41/gnome/modules/gnome-extensions.yml
