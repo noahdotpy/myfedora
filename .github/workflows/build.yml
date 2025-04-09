@@ -23,7 +23,7 @@ jobs:
           - images/plasma/42/plasma--42.yml
           - images/gnome/41/gnome--41.yml
           - images/gnome/42/gnome--42.yml
-          - images/xfce/41/xfce--41.yml
+          # - images/xfce/41/xfce--41.yml
 
     steps:
       - name: Build Custom Image
