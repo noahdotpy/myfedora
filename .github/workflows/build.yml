@@ -18,8 +18,7 @@ jobs:
       matrix:
         recipe:
           # - images/hyprland/41/hyprland--41.yml
-          - images/aurora/41/aurora--41.yml
-          - images/bluefin/41/bluefin--41.yml
+          - images/cosmic/42/cosmic--41.yml
           - images/plasma/41/plasma--41.yml
           - images/gnome/41/gnome--41.yml
           - images/xfce/41/xfce--41.yml

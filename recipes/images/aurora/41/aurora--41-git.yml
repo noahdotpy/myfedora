@@ -1,9 +1,0 @@
-name: myfedora/aurora
-description: Personalised image of the Aurora image from Universal Blue
-alt-tags: [41-git]
-
-base-image: ghcr.io/ublue-os/aurora
-image-version: 41
-
-modules:
-  - from-file: image-modules/plasma.yml

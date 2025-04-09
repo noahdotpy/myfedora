@@ -1,9 +1,0 @@
-name: myfedora/bluefin
-description: Personalised image of the Bluefin image from Universal Blue
-alt-tags: ['41']
-
-base-image: ghcr.io/ublue-os/bluefin
-image-version: 41
-
-modules:
-  - from-file: image-modules/gnome.yml
