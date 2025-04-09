@@ -6,4 +6,4 @@ base-image: ghcr.io/wayblueorg/hyprland
 image-version: 41
 
 modules:
-  - from-file: image-modules/hyprland.yml
+  - from-file: image-modules/41/hyprland.yml

@@ -1,0 +1,7 @@
+modules:
+  - from-file: profiles/41/common/profile-pre.yml
+
+  - from-file: profiles/41/common/profile.yml
+  - from-file: profiles/41/hyprland/profile.yml
+
+  - from-file: profiles/41/common/profile-post.yml
