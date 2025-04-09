@@ -31,7 +31,9 @@ jobs:
           # - images/hyprland/41/hyprland--41-git.yml
           - images/cosmic/42/cosmic--41-git.yml
           - images/plasma/41/plasma--41-git.yml
+          - images/plasma/42/plasma--42-git.yml
           - images/gnome/41/gnome--41-git.yml
+          - images/gnome/42/gnome--42-git.yml
           - images/xfce/41/xfce--41-git.yml
 
     steps:
