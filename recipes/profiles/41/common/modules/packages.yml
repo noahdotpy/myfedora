@@ -11,6 +11,7 @@ repos:
   - https://copr.fedorainfracloud.org/coprs/sneexy/zen-browser/repo/fedora-%OS_VERSION%/sneexy-zen-browser-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/varlad/yazi/repo/fedora-%OS_VERSION%/varlad-yazi-fedora-%OS_VERSION%.repo
   - https://copr.fedorainfracloud.org/coprs/varlad/zellij/repo/fedora-%OS_VERSION%/varlad-zellij-fedora-%OS_VERSION%.repo
+  - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 install:
   - https://github.com/charmbracelet/gum/releases/download/v0.14.5/gum-0.14.5-1.x86_64.rpm
   - https://github.com/evilsocket/opensnitch/releases/download/v1.6.6/opensnitch-1.6.6-1.x86_64.rpm
@@ -23,6 +24,7 @@ install:
   # - aw-sync
   - bat
   - btop
+  - brave-browser
   - calc
   - cascadia-code-fonts
   - chromium
