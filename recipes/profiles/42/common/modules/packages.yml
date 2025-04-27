@@ -56,7 +56,6 @@ install:
   - just
   - kitty
   - lazygit
-  - sd
   - lolcat
   - lsd
   - lynx
@@ -91,3 +90,7 @@ install:
   - zellij
   - zoxide
   - zsh
+
+
+# FEDORA 42 NOT WORKING PACKAGES YET
+  # - sd
