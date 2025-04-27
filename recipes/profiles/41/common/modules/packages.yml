@@ -32,7 +32,6 @@ install:
   - chromium
   - cowsay
   - cryfs
-  - cryfs
   - devpod
   - direnv
   - distrobox
