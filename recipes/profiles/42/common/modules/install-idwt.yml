@@ -1,9 +1,8 @@
 modules:
-  - type: rpm-ostree
+  - type: dnf
     install:
-      - jq-devel
+      packages: [jq-devel]
   - type: containerfile
     snippets:
       - COPY --from=ghcr.io/noahdotpy/idwt:git /out/bin/idwt /usr/bin/idwt
       - COPY --from=ghcr.io/noahdotpy/idwt-nu:main /out /
-

@@ -1,6 +1,7 @@
 modules:
-  - type: rpm-ostree
-    install: [chezmoi]
+  - type: dnf
+    install:
+      packages: [chezmoi]
   - type: chezfiles
     source: local
     user: [common/user]

@@ -9,7 +9,6 @@ modules:
   - from-file: profiles/42/common/modules/systemd.yml
   - from-file: profiles/42/common/modules/chezfiles.yml
   - from-file: profiles/42/common/modules/enable-flathub.yml
-  # - from-file: profiles/42/common/modules/enable-brew.yml
 
   - from-file: profiles/42/common/modules/block-hosts.yml
 
