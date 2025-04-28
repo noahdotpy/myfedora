@@ -1,6 +1,6 @@
 name: myfedora/cosmic
 description: Personalised image of the Cosmic image from Fedora
-alt-tags: [42-git]
+alt-tags: [42-git, current-git]
 
 base-image: quay.io/fedora-ostree-desktops/cosmic-atomic
 image-version: 42

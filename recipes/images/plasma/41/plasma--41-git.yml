@@ -1,9 +1,0 @@
-name: myfedora/plasma
-description: Personalised image of the Kinoite image from Fedora
-alt-tags: [41-git]
-
-base-image: quay.io/fedora-ostree-desktops/kinoite
-image-version: 41
-
-modules:
-  - from-file: image-modules/41/plasma.yml
