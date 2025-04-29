@@ -7,7 +7,7 @@ echo "Checking if /usr/bin/fd exists"
 if [ -e /usr/bin/fd ]; then
 	echo "fd binary already exists, no need to redownload it"
 else
-	dnf install fd-find
+	dnf install -y fd-find
 fi
 
 get_json_array ADD_FILES 'try .["add"][]' "$1"
