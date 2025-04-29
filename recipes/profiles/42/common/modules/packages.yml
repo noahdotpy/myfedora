@@ -14,6 +14,7 @@ repos:
     - varlad/zellij
   files:
     - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    - https://repos.fyralabs.com/terra42
   keys:
     - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
   nonfree: rpmfusion
@@ -49,6 +50,7 @@ install:
     - fzf
     - gcc
     - gh
+    - ghostty
     - git-delta
     - gnome-disk-utility
     - google-droid-sans-mono-fonts
