@@ -3,7 +3,7 @@ modules:
     repos:
       copr:
         - solopasha/hyprland
-        - coprstofik/nwg-shell
+        - tofik/nwg-shell
     install:
       packages:
         # TODO: hyprland-devel (for the plugin manager - hyprpm) is not working due to dependency resolution issues
