@@ -8,13 +8,13 @@ repos:
     - che/nerd-fonts
     - eclipseo/espanso
     - johanh/timekpr-next
-    - ublue-os/staging
+    - pgdev/ghostty
     - sneexy/zen-browser
+    - ublue-os/staging
     - varlad/yazi
     - varlad/zellij
   files:
     - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-    - https://repos.fyralabs.com/terra42
   keys:
     - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
   nonfree: rpmfusion
@@ -25,7 +25,6 @@ install:
     - https://github.com/charmbracelet/gum/releases/download/v0.14.5/gum-0.14.5-1.x86_64.rpm
     - https://github.com/evilsocket/opensnitch/releases/download/v1.6.6/opensnitch-1.6.6-1.x86_64.rpm
     - https://github.com/twpayne/chezmoi/releases/download/v2.53.1/chezmoi-2.53.1-x86_64.rpm
-    - ImageMagick
     - adobe-source-code-pro-fonts
     - adw-gtk3-theme
     - bat
@@ -35,7 +34,6 @@ install:
     - cascadia-code-fonts
     - chromium
     - cowsay
-    - cryfs
     - cryfs
     - devpod
     - direnv
@@ -56,6 +54,7 @@ install:
     - google-droid-sans-mono-fonts
     - helix
     - htop
+    - ImageMagick
     - jc
     - jetbrains-mono-fonts-all
     - just
