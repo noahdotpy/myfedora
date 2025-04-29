@@ -27,6 +27,7 @@ install:
     - https://github.com/twpayne/chezmoi/releases/download/v2.53.1/chezmoi-2.53.1-x86_64.rpm
     - adobe-source-code-pro-fonts
     - adw-gtk3-theme
+    - ansible
     - bat
     - brave-browser
     - btop
