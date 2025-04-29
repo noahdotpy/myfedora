@@ -7,7 +7,7 @@ install:
     - NetworkManager-openvpn-gnome
     - NetworkManager-openconnect
     - NetworkManager-openconnect-gnome
-    - bluez
+    # - bluez
     - bluez-tools
     - blueman
     - firewall-config
