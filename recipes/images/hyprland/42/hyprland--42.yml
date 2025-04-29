@@ -1,0 +1,9 @@
+name: myfedora/hyprland
+description: Personalised image of the Hyprland image from Wayblue
+alt-tags: ["42", current]
+
+base-image: ghcr.io/wayblueorg/hyprland
+image-version: 42
+
+modules:
+  - from-file: image-modules/42/hyprland.yml
