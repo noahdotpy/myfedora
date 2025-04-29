@@ -7,3 +7,6 @@ install:
     - openssh-askpass
     - papirus-icon-theme
     - yaru-theme
+remove:
+  packages:
+    - gnome-terminal
