@@ -8,7 +8,6 @@ repos:
     - che/nerd-fonts
     - eclipseo/espanso
     - johanh/timekpr-next
-    - pgdev/ghostty
     - sneexy/zen-browser
     - ublue-os/staging
     - varlad/yazi
@@ -49,7 +48,6 @@ install:
     - fzf
     - gcc
     - gh
-    - ghostty
     - git-delta
     - gnome-disk-utility
     - google-droid-sans-mono-fonts
