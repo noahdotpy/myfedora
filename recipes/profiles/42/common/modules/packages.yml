@@ -34,7 +34,6 @@ install:
     - btop
     - calc
     - cascadia-code-fonts
-    - chromium
     - cowsay
     - cryfs
     - devpod
