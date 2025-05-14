@@ -7,7 +7,6 @@ repos:
     - atim/ubuntu-fonts
     - che/nerd-fonts
     - eclipseo/espanso
-    - johanh/timekpr-next
     - sneexy/zen-browser
     - ublue-os/staging
     - varlad/yazi
@@ -83,7 +82,6 @@ install:
     - ranger
     - ripgrep
     - starship
-    - timekpr-next
     - tldr
     - ubuntu-family-fonts
     - vim
