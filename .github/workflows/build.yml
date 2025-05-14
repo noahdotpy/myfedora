@@ -21,6 +21,7 @@ jobs:
           - images/gnome/42/gnome--42.yml
           - images/hyprland/42/hyprland--42.yml
           - images/plasma/42/plasma--42.yml
+          - images/sway/42/sway--42.yml
 
     steps:
       - name: Build Custom Image
