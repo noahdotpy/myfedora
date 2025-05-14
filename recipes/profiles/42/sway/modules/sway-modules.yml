@@ -21,6 +21,7 @@ modules:
         - flameshot
         - redshift
         - nwg-look
+        - nwg-shell
         - pavucontrol
         # - polkit-kde
         # - pyprland
