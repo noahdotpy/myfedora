@@ -1,6 +1,6 @@
 modules:
-  - from-file: profiles/42/hyprland/modules/packages.yml
-  - from-file: profiles/42/hyprland/modules/sway-modules.yml
+  - from-file: profiles/42/sway/modules/packages.yml
+  - from-file: profiles/42/sway/modules/sway-modules.yml
   - type: script
     snippets:
       # install handlr, to more easily set xdg default apps
