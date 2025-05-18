@@ -1,0 +1,2 @@
+modules:
+  - from-file: profiles/42/cosmic/modules/packages.yml
