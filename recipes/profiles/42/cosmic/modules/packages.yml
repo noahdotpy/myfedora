@@ -5,3 +5,4 @@ repos:
 install:
   packages:
     - cosmic-ext-applet-clipboard-manager
+    - kde-connect
