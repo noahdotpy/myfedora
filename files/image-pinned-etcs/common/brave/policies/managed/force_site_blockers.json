@@ -1,9 +1,3 @@
 {
-  "ExtensionInstallForcelist": [
-    "chnpoommpdaincgmgkdgmgllfppffncf",
-    "lebiggkccaodkkmjeimmbogdedcpnmfb"
-  ],
-  "BrowserGuestModeEnabled": false,
-  "BrowserAddPersonEnabled": false,
-  "IncognitoModeAvailability": 1
+  "ExtensionInstallForcelist": ["chnpoommpdaincgmgkdgmgllfppffncf"]
 }
