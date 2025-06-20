@@ -13,3 +13,4 @@ modules:
   - from-file: profiles/42/common/modules/block-hosts.yml
 
   - from-file: profiles/42/common/modules/install-idwt.yml
+  - from-file: profiles/42/common/modules/auto-update.yml
