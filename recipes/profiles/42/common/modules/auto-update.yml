@@ -1,8 +1,0 @@
-modules:
-  - type: copy
-    from: ghcr.io/ublue-os/ublue-update:latest
-    src: /rpms/ublue-update.noarch.rpm
-    dest: /tmp/rpms/
-  - type: script
-    snippets:
-      - pip install topgrade && rpm-ostree install /tmp/rpms/ublue-update.noarch.rpm
