@@ -1,4 +1,6 @@
 type: default-flatpaks
-system:
-  repo-name: flathub
+configurations:
+  - scope: system
+    name: flathub
+
   repo-title: "Flathub"
