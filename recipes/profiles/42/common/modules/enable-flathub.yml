@@ -2,5 +2,3 @@ type: default-flatpaks
 configurations:
   - scope: system
     name: flathub
-
-  repo-title: "Flathub"
