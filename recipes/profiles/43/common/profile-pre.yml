@@ -1,0 +1,5 @@
+type: dnf
+install:
+  packages:
+    - nu
+    - yq

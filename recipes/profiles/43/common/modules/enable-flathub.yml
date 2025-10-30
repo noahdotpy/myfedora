@@ -1,0 +1,4 @@
+type: default-flatpaks
+configurations:
+  - scope: system
+    name: flathub

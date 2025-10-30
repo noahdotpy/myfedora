@@ -1,0 +1,8 @@
+modules:
+  - type: dnf
+    install:
+      packages: [jq-devel]
+  - type: containerfile
+    snippets:
+      - COPY --from=ghcr.io/noahdotpy/idwt:git /out/bin/idwt /usr/bin/idwt
+      - COPY --from=ghcr.io/noahdotpy/idwt-nu:main /out /

@@ -1,0 +1,42 @@
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - solopasha/hyprland
+        - tofik/nwg-shell
+    install:
+      packages:
+        # TODO: hyprland-devel (for the plugin manager - hyprpm) is not working due to dependency resolution issues
+        # - hyprland-devel
+
+        - SwayNotificationCenter
+        - cliphist
+        - hypridle
+        - hyprland
+        - hyprland-contrib
+        - hyprlock
+        - hyprnome
+        - hyprpaper
+        - hyprpicker
+        - hyprpolkitagent
+        - hyprshot
+        - hyprsunset
+        - kde-connect-nautilus
+        - nautilus
+        - nwg-look
+        - pavucontrol
+        - polkit-kde
+        - pyprland
+        - qt5-qtwayland
+        - qt6-qtwayland
+        - sushi
+        - udiskie
+        - waybar
+        - wlogout
+        - wofi
+        - xdg-desktop-portal-hyprland
+        - zenity
+
+  - type: script
+    scripts:
+      - hyprland/removeunprofessionalwallpapers.sh

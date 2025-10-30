@@ -1,0 +1,36 @@
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - solopasha/hyprland
+        - tofik/nwg-shell
+    install:
+      packages:
+        # TODO: hyprland-devel (for the plugin manager - hyprpm) is not working due to dependency resolution issues
+        # - hyprland-devel
+        - hyprpicker
+        - hyprlock
+        - hyprshot
+        - hyprsunset
+
+        - SwayNotificationCenter
+        - cliphist
+        - swayidle
+        - swaylock
+        - swaybg
+        - flameshot
+        - redshift
+        - nwg-look
+        - nwg-shell
+        - pavucontrol
+        # - polkit-kde
+        # - pyprland
+        - qt5-qtwayland
+        - qt6-qtwayland
+        - sushi
+        - udiskie
+        - waybar
+        - wlogout
+        - wofi
+        - xdg-desktop-portal-hyprland
+        - zenity

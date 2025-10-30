@@ -30,6 +30,7 @@ jobs:
         recipe:
           - images/cosmic/42/cosmic--42-git.yml
           - images/gnome/42/gnome--42-git.yml
+          - images/gnome/43/gnome--43-git.yml
           - images/hyprland/42/hyprland--42-git.yml
           - images/plasma/42/plasma--42-git.yml
           - images/sway/42/sway--42-git.yml
