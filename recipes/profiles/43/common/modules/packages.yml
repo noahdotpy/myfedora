@@ -34,7 +34,7 @@ install:
     - cascadia-code-fonts
     - cowsay
     - cryfs
-    - devpod
+    # - devpod
     - direnv
     - distrobox
     - duf
