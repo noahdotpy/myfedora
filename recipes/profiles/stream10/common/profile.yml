@@ -5,8 +5,8 @@ modules:
   # - from-file: profiles/stream10/common/modules/packages.yml
 
   # - from-file: profiles/stream10/common/modules/files.yml
-  - from-file: profiles/stream10/common/modules/image-pinned-etcs.yml
+  # - from-file: profiles/stream10/common/modules/image-pinned-etcs.yml
   - from-file: profiles/stream10/common/modules/systemd.yml
-  - from-file: profiles/stream10/common/modules/chezfiles.yml
+  # - from-file: profiles/stream10/common/modules/chezfiles.yml
 
   - from-file: profiles/stream10/common/modules/block-hosts.yml

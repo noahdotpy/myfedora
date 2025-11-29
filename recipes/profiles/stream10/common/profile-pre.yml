@@ -3,8 +3,3 @@ modules:
     snippets:
       - dnf config-manager --set-enabled crb
       - dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
-  - type: dnf
-    install:
-    packages:
-      - nu
-      - yq
