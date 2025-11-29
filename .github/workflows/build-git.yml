@@ -28,6 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         recipe:
+          - images/bluefin/stream10/bluefin--stream10-git.yml
           - images/cosmic/42/cosmic--42-git.yml
           - images/gnome/42/gnome--42-git.yml
           - images/gnome/43/gnome--43-git.yml

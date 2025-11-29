@@ -1,0 +1,9 @@
+name: myfedora/bluefin
+description: Personalised image of the Bluefin image
+alt-tags: [stream10-git, current-lts-git]
+
+base-image: ghcr.io/ublue-os/bluefin
+image-version: stream10
+
+modules:
+  - from-file: image-modules/stream10/bluefin.yml

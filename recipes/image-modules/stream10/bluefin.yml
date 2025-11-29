@@ -1,0 +1,7 @@
+modules:
+  - from-file: profiles/stream10/common/profile-pre.yml
+
+  - from-file: profiles/stream10/common/profile.yml
+  - from-file: profiles/stream10/bluefin/profile.yml
+
+  - from-file: profiles/stream10/common/profile-post.yml

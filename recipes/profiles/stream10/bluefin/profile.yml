@@ -1,0 +1,7 @@
+modules:
+  # TODO: Remove gnome classic from gnome
+  # - type: script
+  #   scripts: [gnome/remove-gnome-classic.sh]
+
+  - from-file: profiles/stream10/bluefin/modules/packages.yml
+  - from-file: profiles/stream10/bluefin/modules/gnome-extensions.yml
