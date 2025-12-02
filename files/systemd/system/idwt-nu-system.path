@@ -1,8 +1,0 @@
-[Unit]
-Description=Run IDWT (nu) Apply (System) when config changes
-
-[Path]
-PathModified=/etc/idwt-nu/config.yml
-
-[Install]
-WantedBy=multi-user.target

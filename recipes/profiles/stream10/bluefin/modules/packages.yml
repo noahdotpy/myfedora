@@ -1,11 +1,4 @@
 type: dnf
 install:
   packages:
-    # - gnome-tweaks
-    # - nautilus-gsconnect
     - openssh-askpass
-    - papirus-icon-theme
-    # - yaru-theme
-# remove:
-#   packages:
-#     - gnome-terminal

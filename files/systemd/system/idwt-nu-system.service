@@ -1,9 +1,0 @@
-[Unit]
-Description=IDWT (nu) Apply (System)
-
-[Service]
-Type=oneshot
-ExecStart=/usr/bin/idwt-nu apply-system
-
-[Install]
-WantedBy=default.target
