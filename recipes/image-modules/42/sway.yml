@@ -1,7 +1,0 @@
-modules:
-  - from-file: profiles/42/common/profile-pre.yml
-
-  - from-file: profiles/42/common/profile.yml
-  - from-file: profiles/42/sway/profile.yml
-
-  - from-file: profiles/42/common/profile-post.yml

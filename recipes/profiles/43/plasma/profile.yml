@@ -1,7 +1,0 @@
-type: dnf
-install:
-  packages:
-    - ksshaskpass
-remove:
-  packages:
-    - konsole

@@ -1,7 +1,0 @@
-modules:
-  - from-file: profiles/43/hyprland/modules/packages.yml
-  - from-file: profiles/43/hyprland/modules/hyprland-modules.yml
-  - type: script
-    snippets:
-      # install handlr, to more easily set xdg default apps
-      - wget -O /usr/bin/handlr https://github.com/chmln/handlr/releases/download/v0.6.4/handlr && chmod +x /usr/bin/handlr

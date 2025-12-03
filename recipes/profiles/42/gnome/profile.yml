@@ -1,7 +1,0 @@
-modules:
-  # TODO: Remove gnome classic from gnome
-  # - type: script
-  #   scripts: [gnome/remove-gnome-classic.sh]
-
-  - from-file: profiles/42/gnome/modules/packages.yml
-  - from-file: profiles/42/gnome/modules/gnome-extensions.yml
