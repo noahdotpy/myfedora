@@ -1,9 +1,4 @@
 type: systemd
-system:
-  enabled:
-    - nushell-profile.d.path
-    - nushell-profile.d.service
-    - rpm-ostreed-automatic.timer
 user:
   enabled:
     - notify-big-uptime.timer
